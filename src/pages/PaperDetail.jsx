@@ -264,7 +264,7 @@ export default function PaperDetail() {
           {paper.pdf_filename && (
             <div style={{ marginTop: 14 }}>
               <a
-                href={`http://localhost:5000/uploads/${paper.pdf_filename}`}
+                href={`https://conference-reviewer.onrender.com/uploads/${paper.pdf_filename}`}
                 target="_blank" rel="noreferrer"
                 className="btn btn-secondary btn-sm">
                 📄 Download PDF
